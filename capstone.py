@@ -6,9 +6,9 @@ import sklearn as sklearn
 import pickle
 
 st.set_page_config(layout="wide")
-
 image = Image.open("image.png")
-st.image(image,width=1040)
+
+st.image(image,width=1240)
 
 st.markdown("<h1 style='text-align: center; color: black;'>Employee Churn Analysis</h1>", unsafe_allow_html=True)
 
